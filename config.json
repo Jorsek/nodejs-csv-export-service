@@ -1,0 +1,18 @@
+{
+	"entityCSV": "./out/entities.csv",
+	"chatbotClient" : "ChatbotConnectors/DialogflowConnection",
+	"settings": {
+		"staticRootMap" : true
+	},
+	"selectionSearch" :{
+		"queryString": "*",
+		"startOffset": 0,
+		"endOffset": 500,
+		"drilldowns": [[["content-type", "Glossary Entry"],["content-type", "FAQ"]]]
+	},
+	"contentTypes" : {
+		"Glossary Entry" : "glossentry"
+	}
+
+}
+	
